@@ -1,0 +1,11 @@
+.home__main section h3 {
+    font-size: var(--tamaño-titulares);
+}
+
+p.precio {
+    font-size: var(--precios);
+}
+
+p.descuento, p.producto {
+    font-size: var(--descuentos-y-descrips);
+}
