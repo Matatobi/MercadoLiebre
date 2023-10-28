@@ -1,0 +1,58 @@
+.home__footer {
+    background-color: white;
+}
+
+.home__footer__section--metodo-pago {
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.home__footer__section--metodo-pago h3, .home__footer__section--metodo-pago p {
+    text-align: center;
+}
+
+#home__footer__section--metodo-pago--i {
+    color: var(--color-azul);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home__footer__section--envios {
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.home__footer__section--envios h3, .home__footer__section--envios p {
+    text-align: center;
+}
+
+#home__footer__section--envios--i {
+    color: var(--color-azul);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home__footer__section--seguridad {
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.home__footer__section--seguridad h3, .home__footer__section--seguridad p {
+    text-align: center;
+}
+
+#home__footer__section--seguridad--i {
+    color: var(--color-azul);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home__footer__section--copyright {
+    padding: 10px 0px 13px 15px;
+}
