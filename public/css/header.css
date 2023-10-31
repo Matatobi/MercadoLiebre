@@ -1,3 +1,7 @@
+.home__header {
+    background-color: var(--color-amarillo);
+}
+
 .home__header__div {
     margin-left: 20px;
 } 
@@ -37,7 +41,12 @@
     margin-bottom: 17px;
 }
 
-#home__header__i {
+.home__header__div--burger {
+    display: flex;
+    justify-content: center;
+}
+
+.home__header__div--burger i{
     width: 35px;
     height: 20px;
     font-size: 20px;
@@ -47,6 +56,5 @@
     background-color: var(--color-azul);
     border-radius: 7px;
     color: white;
-    margin-left: 150px;
     margin-bottom: 17px;
 }
