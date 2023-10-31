@@ -1,3 +1,7 @@
+main {
+    width: 90vw;
+}
+
 .home__main section h3 {
     font-size: var(--tamaño-titulares);
 }
