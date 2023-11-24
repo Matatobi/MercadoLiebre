@@ -1,15 +1,52 @@
-main {
+.home__main {
     width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 5vw;
 }
 
-.home__main section h3 {
+.home__main__section {
     font-size: var(--tamaño-titulares);
 }
 
-p.precio {
-    font-size: var(--precios);
+.home__main section article {
+    margin-bottom: 10px;
+    padding: 15px;
 }
 
-p.descuento, p.producto {
-    font-size: var(--descuentos-y-descrips);
+.home__main__section__article__Cafetera-Moulinex--div, .home__main__section__article__MacBook-Pro-2019--div, .home__main__section__article__Samsung-Galaxy-S10--div, .home__main__section__article__SmartTv-Samsung-43--div {
+    padding: 15px;
+    border-top: solid 1px var(--color-gris-claro);
+    text-align: left;
+}
+
+#truck {
+    border: solid 1px var(--color-verde);
+    color: var(--color-verde);
+    border-radius: 50%;
+    padding: 10px;
+    width: 2rem;
+    height: 2rem;
+}
+
+p.descuento {
+    color: var(--color-verde);
+    margin-bottom: 1em;
+}
+
+.home__main__section__article--div {
+    color: var(--color-verde);
+}
+
+@media (max-width: 360px) {
+    p.descripcion {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) {
+    .home__main__section--ultima-vista article, .home__main__section--ofertas article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }

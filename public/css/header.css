@@ -4,7 +4,7 @@
 
 .home__header__div {
     margin-left: 20px;
-} 
+}
 
 .home__header__div img {
     width: 120px;
@@ -21,10 +21,10 @@
 .home__header__div i {
     margin-top: 1px;
     background-color: white;
-    width: 1em;
+    width: auto;
     height: auto;
     border: solid 0.1px black;
-    padding: 1px; 
+    padding: 2px; 
 }
 
 .home__header__p {
@@ -47,8 +47,8 @@
 }
 
 .home__header__div--burger i{
-    width: 35px;
-    height: 20px;
+    width: 45px;
+    height: 40px;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -57,4 +57,16 @@
     border-radius: 7px;
     color: white;
     margin-bottom: 17px;
+}
+
+@media (max-width: 360px) {
+    .home__header__div__navs {
+        display: none;
+    }
+}
+
+@media (min-width:361px) {
+    .home__header__div--burger {
+        display: none;
+    }
 }
